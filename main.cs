@@ -10,7 +10,7 @@ public class Test
 		int i,Max=0,nom=0;
 		Array.Sort(str); Array.Reverse(str);
 		for (i=0;i<str.Length;i++) a[i]=str[i].Length;
-		for (i=0;i<str.Length-2;i++)
+		for (i=0;i<str.Length;i++)
 		  if (a[i]>Max) {
 		  	Max=a[i];
 		  	nom=i;
